@@ -14,7 +14,7 @@ services:
             - ./setup/raw_input_data:/data
             - ./temp:/temp
         ports:
-            - "5432:5432"
+            - "5430:5432"
 
     webserver:
         image: puckel/docker-airflow:1.10.9
